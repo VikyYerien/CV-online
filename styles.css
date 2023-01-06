@@ -129,6 +129,20 @@ ul{
   border-radius: 50%;
 }
 
+.icon-btn{
+  height: 10vw;
+  width: 10vw;
+  border-radius: 50%;
+  margin-top: 3vw;
+  margin-left: 2vw;
+  border: white;
+}
+
+.icon-btn:hover{
+  height: 11vw;
+  width: 11vw;
+}
+
 .margin{
   padding-right: 2vw;
   padding-left: 2vw;
@@ -163,6 +177,10 @@ ul{
 
 #welcome-section{
   margin-top: 20vh;
+}
+
+#experience-div, #info-div, #hab-div{
+  display: none;
 }
 
 @media (max-width: 720px) {

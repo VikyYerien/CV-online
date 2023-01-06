@@ -1,0 +1,215 @@
+a{
+  text-decoration: none;
+  color: white;
+}
+
+body{
+  background-image: linear-gradient(rgba(47, 54, 64,0.80),rgba(53, 59, 72,1)), url('https://www.grupodigital.eu/blog/wp-content/uploads/2019/12/top-laptop-screen-shows-program-code-create-some-systems-customers-top-view_37282-241.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  font-family: "Arial";
+}
+
+footer{
+  background: linear-gradient(40deg, #505FF1, #AF50F1,  #AF50F1, #FDF908);
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -8px;
+  padding-right: 10vh;
+  padding-left: 10vh;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  color: black;
+}
+
+h1, p{
+  margin-left: 10vw;
+}
+
+h1{
+  font-size: 10vw;
+  background: -webkit-linear-gradient(45deg, #505FF1, #AF50F1,  #AF50F1, #FDF908, #FDF908);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2{
+  font-size: 5vw;
+  background: -webkit-linear-gradient(45deg, #505FF1, #AF50F1,  #AF50F1, #FDF908, #FDF908);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3{
+  color: black;
+}
+
+h4{
+    font-size: 2vw;
+  background: -webkit-linear-gradient(45deg, #505FF1, #AF50F1,  #AF50F1, #FDF908, #FDF908);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+img {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 50%;
+}
+
+li{
+  margin-top: 2vw;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 2vw;
+  color: white;
+}
+
+main{
+  padding-top: 15vh;
+  padding-left: 1vw;
+}
+
+nav{
+  background-color: #1C1C1C;
+  position: fixed;
+  height: 15vh;
+  width: 100vw;
+  margin: -10px;
+}
+
+p{
+  color: white;
+  font-size: 2vw;
+}
+
+section{
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+
+svg{
+  margin-right: 3px;
+}
+
+ul{
+  list-style: none;
+}
+
+.card{
+  font-size: 80%;
+  text-align: center;
+  height: 15vw;
+  width: 15vw;
+  background-color:black;
+  padding:3%;
+  margin:3vw;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+}
+
+.card:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+}
+
+.container{
+  margin: 1vw;
+  display: flex;
+  align-items: center;
+}
+
+.icon{
+  height: 5vw;
+  width: 5vw;
+  border-radius: 50%;
+}
+
+.margin{
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+
+.margin-auto{
+  margin: auto;
+}
+
+.project-tile{
+  margin-left: 10vw;
+  font-size: 5vh;
+}
+
+.project-tile:hover{
+  text-decoration: underline white;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+#Contact{
+  margin-bottom: 20vh;
+}
+
+#projects{
+  margin-top: 50vh;
+  margin-bottom: 50vh;
+}
+
+#welcome-section{
+  margin-top: 20vh;
+}
+
+@media (max-width: 720px) {
+  
+  .card{
+    font-size: 120%;
+    height: 60vw;
+    width: 60vw;
+    margin-bottom: 10vh;
+  }
+  
+  .container{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  html{
+    padding-bottom: 1vw;
+  }
+  
+  h3{
+    font-size: 3vw;
+  }
+  
+  h4{
+    font-size: 5vw;
+  }
+  
+  li, p{
+    font-size: 3.5vw;
+  }
+
+  nav{
+    height: 15vw;
+  }
+  
+  ul{
+    margin-left: -10vw;
+  }
+  
+  #footer-div{
+    margin-left: -20vw;
+    margin-bottom: 50vw;
+    height: 15vw;
+  }
+  
+  #projects-div{
+    flex-direction: column;
+  }
+}

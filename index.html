@@ -23,43 +23,62 @@
           <img src="https://media.v2.siweb.es/uploaded_thumb_medium/75ced0231b30d5bbba39592fef39e64d/fotografia_curriculum_linkedin_corporativa_madrid_001.jpg" alt="Foto">
           <h1>Theresa Lane</h1>
         </div>
-        <h2>Informacion Personal</h2>
-        <ul>
-          <li><img class="icon" src="https://img2.freepng.es/20180320/jdw/kisspng-birthday-cake-wedding-cake-computer-icons-happy-birthday-cake-icon-5ab0b484f22348.9381151015215299889918.jpg" alt="icono"> 18-12-1990</li>
-          <li><img class="icon" src="https://static.vecteezy.com/system/resources/thumbnails/005/747/913/small/phone-call-icon-symbol-in-trendy-flat-style-call-icon-sign-for-app-logo-web-call-icon-flat-illustration-telephone-symbol-vector.jpg" alt="icono"> 35489321</li>
-          <li><img class="icon" src="https://static.vecteezy.com/system/resources/thumbnails/002/205/854/small/email-icon-free-vector.jpg" alt="icono"> teresa_lane@gmail.com</li>
-          <li><img class="icon" src="https://media.istockphoto.com/id/1193451471/es/vector/icono-de-glifo-vectorial-de-pin-de-mapa.jpg?b=1&s=612x612&w=0&k=20&c=4c3eEUQ0IahfWDIaQqiz2LHj0eyQCko6a6xk0gm-dCE=" alt="icono"> Rio de Janeiro 3254</li>
-        </ul>
+        <div class="row">
+          <h2>Informacion Personal</h2>
+          <button class="icon-btn" onclick="collapseElements('info-div')">
+            <img class="icon" src="https://cdn.iconscout.com/icon/free/png-256/more-2653754-2202566.png" alt="icono">
+          </button>
+        </div>
+        <div id="info-div">
+          <ul>
+            <li><img class="icon" src="https://img2.freepng.es/20180320/jdw/kisspng-birthday-cake-wedding-cake-computer-icons-happy-birthday-cake-icon-5ab0b484f22348.9381151015215299889918.jpg" alt="icono"> 18-12-1990</li>
+            <li><img class="icon" src="https://static.vecteezy.com/system/resources/thumbnails/005/747/913/small/phone-call-icon-symbol-in-trendy-flat-style-call-icon-sign-for-app-logo-web-call-icon-flat-illustration-telephone-symbol-vector.jpg" alt="icono"> 35489321</li>
+            <li><img class="icon" src="https://static.vecteezy.com/system/resources/thumbnails/002/205/854/small/email-icon-free-vector.jpg" alt="icono"> teresa_lane@gmail.com</li>
+            <li><img class="icon" src="https://media.istockphoto.com/id/1193451471/es/vector/icono-de-glifo-vectorial-de-pin-de-mapa.jpg?b=1&s=612x612&w=0&k=20&c=4c3eEUQ0IahfWDIaQqiz2LHj0eyQCko6a6xk0gm-dCE=" alt="icono"> Rio de Janeiro 3254</li>
+          </ul>
+        </div>
       </section>
       <section id="experience-section">
-        <header>
+        <header class="row">
           <h2>Experiencia</h2>
+          <button class="icon-btn" onclick="collapseElements('experience-div')">
+            <img class="icon" src="https://cdn.iconscout.com/icon/free/png-256/more-2653754-2202566.png" alt="icono">
+          </button>
         </header>
-        <p>He trabajado de forma autónoma en varios proyectos personales. He aquí algunos de ellos.</p>
-        <div id="projects-div" class="row">
-          <div class="container">
-            <a href="https://codepen.io/VikyYer/full/RwQbmdQ" target="_blank"><div class="card"><h4 class="margin-auto">Product Landing Page</h4></div></a>
-          </div>
-          <div class="container">
-            <a href="https://codepen.io/VikyYer/full/GRQKJyd" target="_blank"><div class="card"><h4 class="margin-auto">Form Page</h4></div></a>
-          </div>
-          <div class="container">
-            <a href="https://codepen.io/VikyYer/full/PoQbZdj" target="_blank"><div class="card"><h4 class="margin-auto">Technical Documentation Page</h4></div></a>
-          </div>
-          <div class="container">
-            <a href="https://codepen.io/VikyYer/full/OJzedEG" target="_blank"><div class="card"><h4 class="margin-auto">Tribute Page</h4></div></a>
+        <div id="experience-div">
+            <p>He trabajado de forma autónoma en varios proyectos personales. He aquí algunos de ellos.</p>
+          <div id="projects-div" class="row">
+            <div class="container">
+              <a href="https://codepen.io/VikyYer/full/RwQbmdQ" target="_blank"><div class="card"><h4 class="margin-auto">Product Landing Page</h4></div></a>
+            </div>
+            <div class="container">
+              <a href="https://codepen.io/VikyYer/full/GRQKJyd" target="_blank"><div class="card"><h4 class="margin-auto">Form Page</h4></div></a>
+            </div>
+            <div class="container">
+              <a href="https://codepen.io/VikyYer/full/PoQbZdj" target="_blank"><div class="card"><h4 class="margin-auto">Technical Documentation Page</h4></div></a>
+            </div>
+            <div class="container">
+              <a href="https://codepen.io/VikyYer/full/OJzedEG" target="_blank"><div class="card"><h4 class="margin-auto">Tribute Page</h4></div></a>
+            </div>
           </div>
         </div>
       </section>
       <section id="habilities-section">
         <header>
-          <h2>Habilidades</h2>
+          <div class="row">
+            <h2>Habilidades</h2>
+            <button class="icon-btn" onclick="collapseElements('hab-div')">
+              <img class="icon" src="https://cdn.iconscout.com/icon/free/png-256/more-2653754-2202566.png" alt="icono">
+            </button>
+          </div>
         </header>
-        <ul>
-          <li>Buenas habilidades de comunicación.</li>
-          <li>Organizada y proactiva.</li>
-          <li>Exelente manejo del idioma Inglés</li>
-        </ul>
+        <div id="hab-div">
+          <ul>
+            <li>Buenas habilidades de comunicación.</li>
+            <li>Organizada y proactiva.</li>
+            <li>Exelente manejo del idioma Inglés</li>
+          </ul>
+        </div>
       </section>  
       <section id="Contact">
         <header>
@@ -93,4 +112,5 @@
       </div>
     </footer>
   </body>
+  <script src="scripts.js"></script>
 </html>
